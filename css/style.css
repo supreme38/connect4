@@ -1,0 +1,182 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.column {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.open {
+	background-color: white;
+	border: 5px solid grey;
+	border-radius: 100%;
+	width: 55px;
+	height: 55px;
+	margin: 10px;
+}
+
+/*changed color to tiffany blue*/
+.red {
+	background-color: #60DFE5;
+	border: 5px solid #60DFE5;
+	border-radius: 100%;
+	width: 55px;
+	height: 55px;
+	margin: 10px;
+}
+
+/*changed color to an orangeish*/
+.black {
+	background-color: #FF7F50;
+	border: 5px solid #FF7F50;
+	border-radius: 100%;
+	width: 55px;
+	height: 55px;
+	margin: 10px;
+}
+
+.button {
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	margin-bottom: 25px;
+	margin-left: 15px;
+	border: 5px solid #FF847C;
+	outline: 0;
+}
+
+.overlay {
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-image: url('http://i.imgur.com/G5w6qAD.gif');
+  background-size: cover;
+  background-position: center;
+  opacity: .9;
+}
+
+.overlay2 {
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.box{
+	margin-bottom: 50px;
+	width: 300px;
+	height: 80px;
+	text-align: center;
+	font-size: 16px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	margin-top: 80px;
+	font-size: 4em;
+}
+
+h1 {
+	color: white;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 80px;
+	font-size: 4em;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.scoreboard {
+	color: white;
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.playerTurn {
+	text-align: center;
+	font-size: 24px;
+}
+
+.scoreboard {
+	margin-top: 20px;
+}
+
+.playerturn {
+  -webkit-animation-duration: .5s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.gameover {
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid black;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.popup {
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: -200;
+	position: absolute;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.message {
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 350px;
+}
+
+.again {
+	width: 250px;
+	font-size: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid white;
+	margin-top: 40px;
+	text-align: center;
+	color: white;
+}
+
+.again:hover {
+	cursor: pointer;
+}
