@@ -148,12 +148,10 @@ $( document ).ready(function() {
         if ($(board[i][j]).hasClass('red') && $(board[i][j + 1]).hasClass('red') && $(board[i][j + 2]).hasClass('red') && $(board[i][j + 3]).hasClass('red')) {
           popup1();
           player1Wins +=1;
-          reset();
         };
         if ($(board[i][j]).hasClass('black') && $(board[i][j + 1]).hasClass('black') && $(board[i][j + 2]).hasClass('black') && $(board[i][j + 3]).hasClass('black')) {
           popup2();
           player2Wins +=1;
-          reset();
         };
       };
     };
@@ -166,12 +164,10 @@ $( document ).ready(function() {
         if ($(board[i][j]).hasClass('red') && $(board[i + 1][j]).hasClass('red') && $(board[i + 2][j]).hasClass('red') && $(board[i + 3][j]).hasClass('red')) {
           popup1();
           player1Wins +=1;
-          reset();
         };
         if ($(board[i][j]).hasClass('black') && $(board[i + 1][j]).hasClass('black') && $(board[i + 2][j]).hasClass('black') && $(board[i + 3][j]).hasClass('black')) {
           popup2();
           player2Wins +=1;
-          reset();
         };
       };
     };
@@ -184,12 +180,10 @@ $( document ).ready(function() {
         if ($(board[i][j]).hasClass('red') && $(board[i + 1][j + 1]).hasClass('red') && $(board[i + 2][j + 2]).hasClass('red') && $(board[i + 3][j + 3]).hasClass('red')) {
           popup1();
           player1Wins +=1;
-          reset();
         };
         if ($(board[i][j]).hasClass('black') && $(board[i + 1][j + 1]).hasClass('black') && $(board[i + 2][j + 2]).hasClass('black') && $(board[i + 3][j + 3]).hasClass('black')) {
           popup2();
           player2Wins +=1;
-          reset();
         };
       };
     };
@@ -202,12 +196,10 @@ $( document ).ready(function() {
         if ($(board[i][j]).hasClass('red') && $(board[i - 1][j + 1]).hasClass('red') && $(board[i - 2][j + 2]).hasClass('red') && $(board[i - 3][j + 3]).hasClass('red')) {
           popup1();
           player1Wins +=1;
-          reset();
         };
         if ($(board[i][j]).hasClass('black') && $(board[i - 1][j + 1]).hasClass('black') && $(board[i - 2][j + 2]).hasClass('black') && $(board[i - 3][j + 3]).hasClass('black')) {
           popup2();
           player2Wins +=1;
-          reset();
         };
       };
     };
@@ -219,7 +211,6 @@ $( document ).ready(function() {
     counter +=1;
     if (counter == 42){
       popuptie();
-      reset();
     };
   };
 
