@@ -128,7 +128,7 @@ h1 {
 }
 
 .playerturn {
-  -webkit-animation-duration: .5s;
+  -webkit-animation-duration: 1s;
   -webkit-animation-delay: 0s;
   -webkit-animation-iteration-count: 1;
 }
