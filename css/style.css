@@ -61,14 +61,14 @@
   	width: 100%;
   	height: 100%;
   	z-index: 10;
-  	background-image: url('http://i.imgur.com/G5w6qAD.gif');
+  	/*background-image: url('http://i.imgur.com/G5w6qAD.gif');*/
   	background-size: cover;
   	background-position: center;
   	opacity: .9;
 }
 
 .overlay2 {
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.9);
 	position: absolute;
   	top: 0;
   	left: 0;
