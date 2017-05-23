@@ -1,5 +1,5 @@
 # Connect Four
->A simple multiplayer connect four game.
+>A simple connect four web app.
 
 ![Preview](http://www.vincent.engineer/assets/images/connect4.gif)
 
