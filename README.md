@@ -17,6 +17,8 @@ You can test a fully working live demo [here](http://www.vincent.engineer/connec
 ```open index.html```
 
 ## Built With
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [jQuery](https://jquery.com/)
 
 ## License
