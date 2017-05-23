@@ -1,22 +1,8 @@
-# CONNECT FOUR
+Connect Four
+============
 
-### Description
-A minimalist connect four game
+A simple Connect Four multiplayer game.
 
-###Tech used / Stack
-* HTML
-* CSS
-* Javascript
-* jQuery
-* github.com/daneden/animate.css
-
-###Features
-* Interactive board
-* Players name input
-* Game ends when there is a winner or tie
-* Wins tracker
-* Can reset game to initial state
-* Enter key works after typing in players name
-
-###Future Implementations
-* A.I.
+## Demo
+(http://www.vincent.engineer/assets/images/connect4.gif)
+You can test a fully working live demo at http://www.vincent.engineer/connect-4
