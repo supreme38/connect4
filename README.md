@@ -14,6 +14,8 @@ You can test a fully working live demo [here](http://www.vincent.engineer/connec
 ```git clone https://github.com/vincentliu38/connect-4```
 
 ## Usage
+```cd connect-4```
+
 ```open index.html```
 
 ## Built With
