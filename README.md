@@ -17,7 +17,7 @@ You can test a fully working live demo [here](http://www.vincent.engineer/connec
 ```open index.html```
 
 ## Built With
-- jQuery
+- [jQuery](https://jquery.com/)
 
 ## License
 This project is licensed under the MIT License. For more information see [LICENSE](https://github.com/vincentliu38/connect-4/blob/gh-pages/LICENSE) file.
