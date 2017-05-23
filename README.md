@@ -6,7 +6,6 @@
 You can test a fully working live demo [here](http://www.vincent.engineer/connect-4).
 
 ## Features
-- Multiplayer
 - Name inputs
 - Score tracking
 - Reset option
